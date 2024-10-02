@@ -1,0 +1,53 @@
+[
+  {
+    "category_name": "Education",
+    "category_image": "/data/category-icons/A.I.svg"
+  },
+  {
+    "category_name": "Shopping",
+    "category_image": "/data/category-icons/Cybersecurity.svg"
+  },
+  {
+    "category_name": "Weather",
+    "category_image": "/data/category-icons/Dating.svg"
+  },
+
+  {
+    "category_name": "Event",
+    "category_image": "/data/category-icons/Education.svg"
+  },
+  {
+    "category_name": "Food",
+    "category_image": "/data/category-icons/Entertainment.svg"
+  },
+  {
+    "category_name": "Utility",
+    "category_image": "/data/category-icons/Event.svg"
+  },
+
+  {
+    "category_name": "Utiliry",
+    "category_image": "/data/category-icons/Finance.svg"
+  },
+  {
+    "category_name": "Sports",
+    "category_image": "/data/category-icons/Food.svg"
+  },
+  {
+    "category_name": "Finance",
+    "category_image": "/data/category-icons/Lifestyle.svg"
+  },
+
+  {
+    "category_name": "Dating",
+    "category_image": "/data/category-icons/Photography.svg"
+  },
+  {
+    "category_name": "Lifestyle",
+    "category_image": "/data/category-icons/Productivity.svg"
+  },
+  {
+    "category_name": "Games",
+    "category_image": "/data/category-icons/Productivity.svg"
+  }
+]

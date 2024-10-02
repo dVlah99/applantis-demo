@@ -1,6 +1,8 @@
 <template>
-  <div class="w-24 h-32">
-    <div class="bg-red-500 w-24 h-24"></div>
+  <div class="w-24 h-32 flex flex-col items-center">
+    <div
+      class="w-24 h-24 rounded-xl shadow-xl border-2 border-solid border-[#E7E7E7]"
+    ></div>
 
     <p class="text-black">{{ props.text }}</p>
   </div>

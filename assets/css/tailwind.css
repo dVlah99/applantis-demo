@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for the body */
+body {
+  @apply flex justify-center items-center;
+  background-color: #ffffff;
+  max-width: 428px;
+}
+
+/* Custom class for a long button */
+.long-btn {
+  @apply h-10 w-40 font-bold;
+}
+
+/* Custom gradient background class */
+.custom-gradient-bg {
+  background-image: linear-gradient(to right, #49b6f9, #7b10ff, #f10be7);
+  color: #ffffff;
+}
+
+/* Custom variant with a solid border, text color, and inherited background */
+.custom-variant {
+  @apply border-2 border-solid border-[#FA14E3] text-[#FA14E3];
+  background-color: inherit;
+}
+
+.test {
+  max-width: 350px;
+}

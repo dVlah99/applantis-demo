@@ -40,12 +40,15 @@
         </div>
       </div>
     </div>
+
+    <Footer />
   </div>
 </template>
 
 <script setup lang="ts">
 // Components
 import Header from '~/components/headerComponent.vue'
+import Footer from '~/components/footerComponent.vue'
 import CategoryTile from '~/components/categoryTileComponent.vue'
 
 // Refs

@@ -9,7 +9,7 @@
           <img :src="applantisLogo" alt="ApphouseLogo" />
         </div>
 
-        <div class="flex justify-around gap-4">
+        <div class="flex flex-wrap justify-around gap-4 px-12 py-8">
           <div
             v-for="(value, key) in homepageOptions"
             :key="key"
@@ -27,10 +27,7 @@
 
 <script setup lang="ts">
 // Vue
-import { ref, computed } from 'vue'
-
-// Components
-import SideMenu from '~/components/sidemenu.vue'
+import { ref } from 'vue'
 
 // SVG
 import applantisLogo from '~/assets/svg/applantis-logo.svg'

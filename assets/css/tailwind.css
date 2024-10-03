@@ -14,6 +14,11 @@ body {
   @apply h-10 w-40 font-bold rounded-md;
 }
 
+.download-button {
+  background-color: #f1e7fe;
+  color: #7612fa;
+}
+
 /* Custom gradient background class */
 .custom-gradient-bg {
   background-image: linear-gradient(to right, #49b6f9, #7b10ff, #f10be7);

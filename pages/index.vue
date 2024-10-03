@@ -39,6 +39,26 @@
           </div>
         </div>
       </div>
+
+      <div
+        class="flex justify-center items-center text-xl font-bold pt-16 pb-5"
+      >
+        <h2 class="color-black text-black">Best Applantis Apps</h2>
+      </div>
+
+      <div class="flex justify-center test h-full">
+        <div class="flex gap-8 justify-center">
+          <div class="">
+            <AppTile :text="app" />
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-7">
+        <button class="custom-gradient-bg rounded-md px-4 py-2 font-semibold">
+          See our top charts
+        </button>
+      </div>
     </div>
 
     <Footer />
@@ -46,13 +66,28 @@
 </template>
 
 <script setup lang="ts">
+interface AppData {
+  name: string
+  description: string
+  rating: string
+  logo: string
+}
+
 // Components
 import Header from '~/components/headerComponent.vue'
 import Footer from '~/components/footerComponent.vue'
 import CategoryTile from '~/components/categoryTileComponent.vue'
+import AppTile from '~/components/appTileComponent.vue'
 
 // Refs
 const categories = ref({})
+
+const app = ref<AppData>({
+  name: '',
+  description: '',
+  rating: '',
+  logo: '',
+})
 
 onMounted(async () => {
   try {
@@ -63,6 +98,11 @@ onMounted(async () => {
 
     const data = await response.json()
     categories.value = data || {}
+
+    const appResponse = await fetch(`/json/app-data/app-data.json`)
+    const appData = await appResponse.json()
+    app.value = appData || {}
+    console.log('app val: ', app.value)
   } catch (error) {
     console.error('Error fetching app data:', error)
   }

@@ -1,5 +1,5 @@
 <template>
-  <div class="my-10 flex justify-center h-full">
+  <div class="my-5 flex justify-center h-full">
     <header class="w-full flex justify-center">
       <div class="w-full h-10 flex justify-between items-center px-4">
         <!-- Logo -->

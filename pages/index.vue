@@ -28,14 +28,14 @@
         <h2 class="color-black text-black">Categories</h2>
       </div>
 
-      <div class="flex justify-center test">
+      <div class="flex justify-center max-width">
         <div class="overflow-x-auto flex gap-8 justify-center">
           <div
             class="w-24 h-32"
             v-for="(category, key) in categories"
             :key="key"
           >
-            <CategoryTile :text="category" />
+            <CategoryTile :values="category" />
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
         <h2 class="color-black text-black">Best Applantis Apps</h2>
       </div>
 
-      <div class="flex justify-center test h-full">
+      <div class="flex justify-center max-width h-full">
         <div class="flex gap-8 justify-center">
           <div class="">
             <AppTile :text="app" />
@@ -102,7 +102,6 @@ onMounted(async () => {
     const appResponse = await fetch(`/json/app-data/app-data.json`)
     const appData = await appResponse.json()
     app.value = appData || {}
-    console.log('app val: ', app.value)
   } catch (error) {
     console.error('Error fetching app data:', error)
   }

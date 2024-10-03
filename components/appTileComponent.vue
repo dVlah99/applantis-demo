@@ -32,10 +32,6 @@
 const props = defineProps<{
   text: { name: string; description: string; rating: string; logo: string }
 }>()
-
-onMounted(async () => {
-  console.log('props_ ', props.text)
-})
 </script>
 
 <style lang="scss" scoped></style>

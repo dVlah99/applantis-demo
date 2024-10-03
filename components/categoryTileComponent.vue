@@ -3,17 +3,17 @@
     <div
       class="w-24 h-24 rounded-xl shadow-xl border-2 border-solid border-[#E7E7E7] flex justify-center items-center"
     >
-      <img :src="props.text.image" alt="Category icon" />
+      <img :src="props.values.image" alt="Category icon" />
     </div>
 
-    <p class="text-black">{{ props.text.name }}</p>
+    <p class="text-black font-bold">{{ props.values.name }}</p>
   </div>
 </template>
 
 <script setup lang="ts">
 // Define props
 const props = defineProps<{
-  text: { name: string; image: string }
+  values: { name: string; image: string }
 }>()
 </script>
 

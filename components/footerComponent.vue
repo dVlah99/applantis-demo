@@ -30,7 +30,7 @@
 import { ref } from 'vue'
 
 // SVG
-import applantisLogo from '~/assets/svg/applantis-logo.svg'
+import applantisLogo from '~/public/icons/generic/applantis-logo.svg'
 
 // Refs
 const homepageOptions = ref({})

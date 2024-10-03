@@ -34,7 +34,7 @@ import { ref, computed } from 'vue'
 import SideMenu from '~/components/sidemenu.vue'
 
 // SVG
-import applantisLogo from '~/assets/svg/applantis-logo.svg'
+import applantisLogo from '~/public/icons/generic/applantis-logo.svg'
 
 // Define props
 const props = defineProps<{

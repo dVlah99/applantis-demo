@@ -3,7 +3,7 @@
     <div
       v-for="(value, key) in homepageOptions"
       :key="key"
-      class="flex flex-col items-center font-bold py-1 text-3xl"
+      class="flex flex-col items-center font-bold py-1 text-3xl text-black"
     >
       <NuxtLink :to="formatText(value)">
         <h2>{{ value }}</h2>

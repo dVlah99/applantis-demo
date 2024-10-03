@@ -11,7 +11,7 @@ body {
 
 /* Custom class for a long button */
 .long-btn {
-  @apply h-10 w-40 font-bold;
+  @apply h-10 w-40 font-bold rounded-md;
 }
 
 /* Custom gradient background class */

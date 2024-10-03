@@ -1,53 +1,53 @@
 [
   {
-    "category_name": "Education",
-    "category_image": "/data/category-icons/A.I.svg"
+    "name": "Education",
+    "image": "/icons/categories/education-icon.svg"
   },
   {
-    "category_name": "Shopping",
-    "category_image": "/data/category-icons/Cybersecurity.svg"
+    "name": "Shopping",
+    "image": "/icons/categories/shopping-icon.svg"
   },
   {
-    "category_name": "Weather",
-    "category_image": "/data/category-icons/Dating.svg"
-  },
-
-  {
-    "category_name": "Event",
-    "category_image": "/data/category-icons/Education.svg"
-  },
-  {
-    "category_name": "Food",
-    "category_image": "/data/category-icons/Entertainment.svg"
-  },
-  {
-    "category_name": "Utility",
-    "category_image": "/data/category-icons/Event.svg"
+    "name": "Weather",
+    "image": "/icons/categories/weather-icon.svg"
   },
 
   {
-    "category_name": "Utiliry",
-    "category_image": "/data/category-icons/Finance.svg"
+    "name": "Event",
+    "image": "/icons/categories/event-icon.svg"
   },
   {
-    "category_name": "Sports",
-    "category_image": "/data/category-icons/Food.svg"
+    "name": "Food",
+    "image": "/icons/categories/food-icon.svg"
   },
   {
-    "category_name": "Finance",
-    "category_image": "/data/category-icons/Lifestyle.svg"
+    "name": "Utility",
+    "image": "/icons/categories/utility-icon-tools.svg"
   },
 
   {
-    "category_name": "Dating",
-    "category_image": "/data/category-icons/Photography.svg"
+    "name": "Utility",
+    "image": "/icons/categories/utility-icon-one.svg"
   },
   {
-    "category_name": "Lifestyle",
-    "category_image": "/data/category-icons/Productivity.svg"
+    "name": "Sports",
+    "image": "/icons/categories/sports-icon.svg"
   },
   {
-    "category_name": "Games",
-    "category_image": "/data/category-icons/Productivity.svg"
+    "name": "Finance",
+    "image": "/icons/categories/finance-icon.svg"
+  },
+
+  {
+    "name": "Dating",
+    "image": "/icons/categories/dating-icon.svg"
+  },
+  {
+    "name": "Lifestyle",
+    "image": "/icons/categories/lifestyle-icon.svg"
+  },
+  {
+    "name": "Games",
+    "image": "/icons/categories/games-icon.svg"
   }
 ]

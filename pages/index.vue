@@ -48,23 +48,18 @@
 import Header from '~/components/headerComponent.vue'
 import CategoryTile from '~/components/categoryTileComponent.vue'
 
-const items = ['1', '2', '3', '4', '5', '6']
-
 // Refs
 const categories = ref({})
-let test: string[] = []
 
 onMounted(async () => {
   try {
-    const response = await fetch(`/json/homepage-options.json`)
+    const response = await fetch(`/json/categories.json`)
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`)
     }
-    const data = await response.json()
 
-    categories.value = data.options || {}
-    test = [...data.options]
-    console.log(test)
+    const data = await response.json()
+    categories.value = data || {}
   } catch (error) {
     console.error('Error fetching app data:', error)
   }

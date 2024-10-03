@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full">
+  <div class="absolute top-14 right-0 left-0 bottom-0 bg-white z-10">
     <div
       v-for="(value, key) in homepageOptions"
       :key="key"
@@ -34,8 +34,6 @@ onMounted(async () => {
     const data = await response.json()
 
     homepageOptions.value = data.options || {}
-    console.log(homepageOptions.value)
-    console.log(formatText(data.options[0]))
   } catch (error) {
     console.error('Error fetching app data:', error)
   }

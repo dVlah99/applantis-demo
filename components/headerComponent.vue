@@ -1,5 +1,5 @@
 <template>
-  <div class="my-10 flex justify-center">
+  <div class="my-10 flex justify-center h-full">
     <header class="w-full flex justify-center">
       <div class="w-full h-10 flex justify-around items-center">
         <!-- Logo -->
@@ -53,7 +53,6 @@ const menuIcon = computed(() =>
 
 // Toggle menu state
 const toggleMenuIcon = () => {
-  console.log('a')
   isMenuOpen.value = !isMenuOpen.value
 }
 </script>

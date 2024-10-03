@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full relative">
     <Header :isMenuOpen="false" />
 
     <div class="flex flex-col items-center">
